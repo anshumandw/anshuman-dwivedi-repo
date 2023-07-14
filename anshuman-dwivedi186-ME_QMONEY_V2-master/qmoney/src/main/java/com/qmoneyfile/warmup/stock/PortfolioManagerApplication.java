@@ -1,12 +1,12 @@
 
-package com.crio.warmup.stock;
+package com.qmoneyfile.warmup.stock;
 
 
-import com.crio.warmup.stock.dto.*;
-import com.crio.warmup.stock.log.UncaughtExceptionHandler;
-import com.crio.warmup.stock.portfolio.PortfolioManager;
-import com.crio.warmup.stock.portfolio.PortfolioManagerFactory;
-import com.crio.warmup.stock.portfolio.PortfolioManagerImpl;
+import com.qmoneyfile.warmup.stock.dto.*;
+import com.qmoneyfile.warmup.stock.log.UncaughtExceptionHandler;
+import com.qmoneyfile.warmup.stock.portfolio.PortfolioManager;
+import com.qmoneyfile.warmup.stock.portfolio.PortfolioManagerFactory;
+import com.qmoneyfile.warmup.stock.portfolio.PortfolioManagerImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.io.File;
@@ -172,7 +172,7 @@ public class PortfolioManagerApplication {
   public static List<String> debugOutputs() {
 
      String valueOfArgument0 = "trades.json";
-     String resultOfResolveFilePathArgs0 = "/home/crio-user/workspace/anshuman-dwivedi186-ME_QMONEY_V2/qmoney/bin/main/trades.json";
+     String resultOfResolveFilePathArgs0 = "/home/qmoneyfile-user/workspace/anshuman-dwivedi186-ME_QMONEY_V2/qmoney/bin/main/trades.json";
      String toStringOfObjectMapper = "com.fasterxml.jackson.databind.ObjectMapper@5542c4ed";
      String functionNameFromTestFileInStackTrace = "mainReadFile";
      String lineNumberFromTestFileInStackTrace = "29";

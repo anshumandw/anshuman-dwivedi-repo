@@ -1,10 +1,3 @@
-
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
 package com.crio.qeats.controller;
 
 import static com.crio.qeats.controller.RestaurantController.CART_API;

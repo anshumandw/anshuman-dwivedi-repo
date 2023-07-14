@@ -1,7 +1,7 @@
 package com.crio.warmup.stock;
 
 import java.util.Comparator;
-import com.crio.warmup.stock.dto.AnnualizedReturn;
+import com.qmoneyfile.warmup.stock.dto.AnnualizedReturn;
 
 public class sortAnnualizedReturns implements Comparator<AnnualizedReturn> {
 

@@ -55,7 +55,6 @@ public class RestaurantServiceMockitoTestStub {
     restaurant2 = restaurants[1];
     restaurant3 = restaurants[2];
     restaurant4 = restaurants[3];
-    // TODO CRIO_TASK_MODULE_MOCKITO
     //  What to do with this Restaurant[] ? Looks unused?
     //  Look for the "assert" statements in the tests
     //  following and find out what to do with the array.
@@ -65,7 +64,6 @@ public class RestaurantServiceMockitoTestStub {
 
   @Test
   public void  testFindNearbyWithin5km() throws IOException {
-    //TODO: CRIO_TASK_MODULE_MOCKITO
     // Following test case is failing, you have to
     // debug it, find out whats going wrong and fix it.
     // Notes - You can create additional mocks, setup the same and try out.
@@ -90,6 +88,7 @@ public class RestaurantServiceMockitoTestStub {
             servingRadiusInKms.capture());
 
   }
+
   //CHECKSTYLE:OFF
 
   @Test
@@ -98,7 +97,6 @@ public class RestaurantServiceMockitoTestStub {
     List<Restaurant> restaurantList1 = Arrays.asList(restaurant1, restaurant4);
     List<Restaurant> restaurantList2 = Arrays.asList(restaurant2, restaurant4);
 
-    // TODO: CRIO_TASK_MODULE_MOCKITO
     //  Initialize these two lists above such that I will match with the assert statements
     //  defined below.
 
@@ -113,11 +111,11 @@ public class RestaurantServiceMockitoTestStub {
         .findAllRestaurantsCloseBy(eq(21.0), eq(31.1), eq(LocalTime.of(19, 0)),
             eq(3.0));
 
-    // TODO: CRIO_TASK_MODULE_MOCKITO
     //  Call restaurantService.findAllRestaurantsCloseBy with appropriate parameters such that
     //  Both of the mocks created above are called.
     //  Our assessment will verify whether these mocks are called as per the definition.
     //  Refer to the assertions below in order to understand the requirements better.
+
     GetRestaurantsResponse allRestaurantsCloseByOffPeakHours;
 
     allRestaurantsCloseByOffPeakHours = restaurantService
@@ -138,9 +136,7 @@ public class RestaurantServiceMockitoTestStub {
     assertEquals("14", allRestaurantsCloseByPeakHours.getRestaurants().get(1).getRestaurantId());
     assertEquals(2, allRestaurantsCloseByPeakHours.getRestaurants().size());
     assertEquals("12", allRestaurantsCloseByPeakHours.getRestaurants().get(0).getRestaurantId());
-    
 
-    //CHECKSTYLE:ON
   }
 
 }

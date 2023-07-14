@@ -1,10 +1,3 @@
-
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
 package com.crio.qeats.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -37,7 +30,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 
-// TODO: CRIO_TASK_MODULE_RESTAURANTSAPI
 //  Pass all the RestaurantService test cases.
 // Contains necessary test cases that check for implementation correctness.
 // Objectives:
@@ -95,7 +87,6 @@ class RestaurantServiceTest {
   @Test
   void normalHourServingRadiusIs5Kms() throws IOException {
 
-    // TODO: CRIO_TASK_MODULE_RESTAURANTSAPI
     // We must ensure the API retrieves only restaurants that are closeby and are open
     // In short, we need to test:
     // 1. If the mocked service methods are being called
