@@ -32,23 +32,6 @@ import org.springframework.web.client.RestTemplate;
 
 public class PortfolioManagerApplication {
 
-  // TODO: CRIO_TASK_MODULE_JSON_PARSING
-  //  Task:
-  //       - Read the json file provided in the argument[0], The file is available in the classpath.
-  //       - Go through all of the trades in the given file,
-  //       - Prepare the list of all symbols a portfolio has.
-  //       - if "trades.json" has trades like
-  //         [{ "symbol": "MSFT"}, { "symbol": "AAPL"}, { "symbol": "GOOGL"}]
-  //         Then you should return ["MSFT", "AAPL", "GOOGL"]
-  //  Hints:
-  //    1. Go through two functions provided - #resolveFileFromResources() and #getObjectMapper
-  //       Check if they are of any help to you.
-  //    2. Return the list of all symbols in the same order as provided in json.
-
-  //  Note:
-  //  1. There can be few unused imports, you will need to fix them to make the build pass.
-  //  2. You can use "./gradlew build" to check if your code builds successfully.
-
   public static List<String> mainReadFile(String[] args) throws IOException, URISyntaxException {
 
     List<String> symbolsList = new ArrayList<>();
@@ -67,7 +50,6 @@ public class PortfolioManagerApplication {
 
   }
 
-  // TODO: CRIO_TASK_MODULE_REST_API
   //  Find out the closing price of each stock on the end_date and return the list
   //  of all symbols in ascending order by its close value on end date.
 
@@ -116,10 +98,10 @@ public class PortfolioManagerApplication {
  // Note:
  // Remember to confirm that you are getting same results for annualized returns as in Module 3.
 
- // TODO:
  //  After refactor, make sure that the tests pass by using these two commands
  //  ./gradlew test --tests PortfolioManagerApplicationTest.readTradesFromJson
  //  ./gradlew test --tests PortfolioManagerApplicationTest.mainReadFile
+
  public static List<PortfolioTrade> readTradesFromJson(String filename) throws IOException, URISyntaxException {
    File fileSymbol = resolveFileFromResources(filename);
 
@@ -132,16 +114,14 @@ public class PortfolioManagerApplication {
    return portfolioTrade;
  }
 
- // TODO:
   //  Build the Url using given parameters and use this function in your code to cann the API.
+
   public static String prepareUrl(PortfolioTrade trade, LocalDate endDate, String token) {
     String symbol = trade.getSymbol();
     LocalDate startDate = trade.getPurchaseDate();
      return "https://api.tiingo.com/tiingo/daily/"+ symbol +"/prices?startDate=" + startDate.toString() + "&endDate="+ endDate + "&token=" + token;
   }
 
-
-  // Note:
   // 1. You may need to copy relevant code from #mainReadQuotes to parse the Json.
   // 2. Remember to get the latest quotes from Tiingo API.
 
@@ -162,8 +142,6 @@ public class PortfolioManagerApplication {
     return objectMapper;
   }
 
-
-  // TODO: CRIO_TASK_MODULE_JSON_PARSING
   //  Follow the instructions provided in the task documentation and fill up the correct values for
   //  the variables provided. First value is provided for your reference.
   //  A. Put a breakpoint on the first line inside mainReadFile() which says
@@ -205,17 +183,14 @@ public class PortfolioManagerApplication {
         lineNumberFromTestFileInStackTrace});
   }
 
-  // TODO: CRIO_TASK_MODULE_CALCULATIONS
   //  Now that you have the list of PortfolioTrade and their data, calculate annualized returns
   //  for the stocks provided in the Json.
   //  Use the function you just wrote #calculateAnnualizedReturns.
   //  Return the list of AnnualizedReturns sorted by annualizedReturns in descending order.
 
-  // Note:
   // 1. You may need to copy relevant code from #mainReadQuotes to parse the Json.
   // 2. Remember to get the latest quotes from Tiingo API.
 
-  // TODO:
   //  Ensure all tests are passing using below command
   //  ./gradlew test --tests ModuleThreeRefactorTest
   
@@ -253,7 +228,6 @@ public class PortfolioManagerApplication {
          return annualizedReturn;
   }
 
-  // TODO: CRIO_TASK_MODULE_CALCULATIONS
   //  Return the populated list of AnnualizedReturn for all stocks.
   //  Annualized returns should be calculated in two steps:
   //   1. Calculate totalReturn = (sell_value - buy_value) / buy_value.
@@ -279,14 +253,13 @@ public class PortfolioManagerApplication {
     return "f37b170e4eaba1ba48319e9b28cd5753fba5c9c9";
   }
 
-  // TODO: CRIO_TASK_MODULE_REFACTOR
   //  Once you are done with the implementation inside PortfolioManagerImpl and
   //  PortfolioManagerFactory, create PortfolioManager using PortfolioManagerFactory.
   //  Refer to the code from previous modules to get the List<PortfolioTrades> and endDate, and
   //  call the newly implemented method in PortfolioManager to calculate the annualized returns.
 
   // Note:
-  // Remember to confirm that you are getting same results for annualized returns as in Module 3.
+  // Remember to confirm that you are getting same results for annualized returns.
 
   public static List<AnnualizedReturn> mainCalculateReturnsAfterRefactor(String[] args)
       throws Exception {

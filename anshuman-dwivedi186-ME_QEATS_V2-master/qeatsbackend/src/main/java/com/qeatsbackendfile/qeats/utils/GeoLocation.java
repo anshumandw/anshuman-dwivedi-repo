@@ -1,8 +1,3 @@
-
-/*
- * Copyright (c) Crio.Do 2019. All rights reserved
- */
-
 package com.crio.qeats.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -12,6 +7,7 @@ import javax.validation.constraints.NotNull;
 /**
  * Utility class to hold latitude and longitude.
  */
+
 public class GeoLocation implements Serializable {
 
   @NotNull private Double latitude;

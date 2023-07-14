@@ -5,8 +5,6 @@ public class XUrlMain {
   public static void main(String[] args) {
 
     XUrl xUrl = new XUrlImpl();
-
-    // Test the Short Url Implementation by registering long URLs and looking up short URLs
     
     // Register long URLs and get the corresponding short URLs as return values
     String url = xUrl.registerNewUrl("http://abc.com");

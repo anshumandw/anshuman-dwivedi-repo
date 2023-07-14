@@ -32,6 +32,7 @@ public class PortfolioManagerImpl implements PortfolioManager {
 
   // Caution: Do not delete or modify the constructor, or else your build will break!
   // This is absolutely necessary for backward compatibility
+
   protected PortfolioManagerImpl(RestTemplate restTemplate) {
     this.restTemplate = restTemplate;
   }
@@ -42,7 +43,6 @@ public class PortfolioManagerImpl implements PortfolioManager {
 
   //CHECKSTYLE:OFF
 
-  // TODO: CRIO_TASK_MODULE_REFACTOR
   //  Extract the logic to call Tiingo third-party APIs to a separate function.
   //  Remember to fill out the buildUri function and use that.
 

@@ -1,10 +1,3 @@
-
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
 package com.crio.qeats.utils;
 
 import com.google.common.io.Resources;
@@ -13,9 +6,6 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-/**
- * A set of helper method for fixture files.
- */
 public class FixtureHelpers {
 
   private FixtureHelpers() { /* singleton */ }
@@ -28,6 +18,7 @@ public class FixtureHelpers {
    * @return the contents of {@code src/test/resources/{filename}}
    * @throws IllegalArgumentException if an I/O error occurs.
    */
+
   public static String fixture(String filename) {
     return fixture(filename, StandardCharsets.UTF_8);
   }
@@ -41,6 +32,7 @@ public class FixtureHelpers {
    * @return the contents of {@code src/test/resources/{filename}}
    * @throws IllegalArgumentException if an I/O error occurs.
    */
+
   private static String fixture(String filename, Charset charset) {
     final URL resource = Resources.getResource(filename);
     try {
