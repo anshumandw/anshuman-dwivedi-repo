@@ -1,10 +1,4 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
-package com.crio.qeats.models;
+package com.qeatsbackendfile.qeats.models;
 
 import java.util.ArrayList;
 import java.util.List;

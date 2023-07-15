@@ -1,8 +1,8 @@
 
-package com.crio.warmup.stock;
+package com.qmoneyfile.warmup.stock;
 
-import com.crio.warmup.stock.dto.AnnualizedReturn;
-import com.crio.warmup.stock.dto.PortfolioTrade;
+import com.qmoneyfile.warmup.stock.dto.AnnualizedReturn;
+import com.qmoneyfile.warmup.stock.dto.PortfolioTrade;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;

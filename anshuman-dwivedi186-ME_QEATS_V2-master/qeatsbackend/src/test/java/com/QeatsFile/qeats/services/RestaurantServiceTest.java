@@ -1,4 +1,4 @@
-package com.crio.qeats.services;
+package com.QeatsFile.qeats.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -7,12 +7,12 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.crio.qeats.QEatsApplication;
-import com.crio.qeats.dto.Restaurant;
-import com.crio.qeats.exchanges.GetRestaurantsRequest;
-import com.crio.qeats.exchanges.GetRestaurantsResponse;
-import com.crio.qeats.repositoryservices.RestaurantRepositoryService;
-import com.crio.qeats.utils.FixtureHelpers;
+import com.QeatsFile.qeats.QEatsApplication;
+import com.QeatsFile.qeats.dto.Restaurant;
+import com.QeatsFile.qeats.exchanges.GetRestaurantsRequest;
+import com.QeatsFile.qeats.exchanges.GetRestaurantsResponse;
+import com.QeatsFile.qeats.repositoryservices.RestaurantRepositoryService;
+import com.QeatsFile.qeats.utils.FixtureHelpers;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;

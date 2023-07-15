@@ -1,18 +1,12 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
-package com.crio.qeats.repositoryservices;
+package com.qeatsbackendfile.qeats.repositoryservices;
 
 import ch.hsr.geohash.GeoHash;
-import com.crio.qeats.dto.Restaurant;
-import com.crio.qeats.globals.GlobalConstants;
-import com.crio.qeats.models.RestaurantEntity;
-import com.crio.qeats.repositories.RestaurantRepository;
-import com.crio.qeats.utils.GeoLocation;
-import com.crio.qeats.utils.GeoUtils;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.globals.GlobalConstants;
+import com.qeatsbackendfile.qeats.models.RestaurantEntity;
+import com.qeatsbackendfile.qeats.repositories.RestaurantRepository;
+import com.qeatsbackendfile.qeats.utils.GeoLocation;
+import com.qeatsbackendfile.qeats.utils.GeoUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -58,7 +52,7 @@ public class RestaurantRepositoryServiceImpl implements RestaurantRepositoryServ
     return time.isAfter(openingTime) && time.isBefore(closingTime);
   }
 
-  // TODO: CRIO_TASK_MODULE_NOSQL
+  // TODO: qeatsbackendfile_TASK_MODULE_NOSQL
   // Objectives:
   // 1. Implement findAllRestaurantsCloseby.
   // 2. Remember to keep the precision of GeoHash in mind while using it as a key.
@@ -98,7 +92,7 @@ public class RestaurantRepositoryServiceImpl implements RestaurantRepositoryServ
 
 
 
-  // TODO: CRIO_TASK_MODULE_NOSQL
+  // TODO: qeatsbackendfile_TASK_MODULE_NOSQL
   // Objective:
   // 1. Check if a restaurant is nearby and open. If so, it is a candidate to be returned.
   // NOTE: How far exactly is "nearby"?

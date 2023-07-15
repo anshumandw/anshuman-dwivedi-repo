@@ -1,13 +1,13 @@
-package com.crio.qeats.controller;
+package com.QeatsFile.qeats.controller;
 
-import static com.crio.qeats.controller.RestaurantController.CART_API;
-import static com.crio.qeats.controller.RestaurantController.CART_CLEAR_API;
-import static com.crio.qeats.controller.RestaurantController.CART_ITEM_API;
-import static com.crio.qeats.controller.RestaurantController.GET_ORDERS_API;
-import static com.crio.qeats.controller.RestaurantController.MENU_API;
-import static com.crio.qeats.controller.RestaurantController.POST_ORDER_API;
-import static com.crio.qeats.controller.RestaurantController.RESTAURANTS_API;
-import static com.crio.qeats.controller.RestaurantController.RESTAURANT_API_ENDPOINT;
+import static com.QeatsFile.qeats.controller.RestaurantController.CART_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.CART_CLEAR_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.CART_ITEM_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.GET_ORDERS_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.MENU_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.POST_ORDER_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.RESTAURANTS_API;
+import static com.QeatsFile.qeats.controller.RestaurantController.RESTAURANT_API_ENDPOINT;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
@@ -22,11 +22,11 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.crio.qeats.QEatsApplication;
-import com.crio.qeats.exchanges.GetRestaurantsRequest;
-import com.crio.qeats.exchanges.GetRestaurantsResponse;
-import com.crio.qeats.services.RestaurantService;
-import com.crio.qeats.utils.FixtureHelpers;
+import com.QeatsFile.qeats.QEatsApplication;
+import com.QeatsFile.qeats.exchanges.GetRestaurantsRequest;
+import com.QeatsFile.qeats.exchanges.GetRestaurantsResponse;
+import com.QeatsFile.qeats.services.RestaurantService;
+import com.QeatsFile.qeats.utils.FixtureHelpers;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;

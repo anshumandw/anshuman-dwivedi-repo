@@ -1,5 +1,5 @@
 
-package com.crio.qeats.globals;
+package com.qeatsbackendfile.qeats.globals;
 
 public class GlobalConstants {
 

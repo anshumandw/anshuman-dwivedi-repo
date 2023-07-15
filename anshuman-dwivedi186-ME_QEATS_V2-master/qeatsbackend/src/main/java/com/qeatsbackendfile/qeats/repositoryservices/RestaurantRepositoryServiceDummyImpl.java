@@ -1,8 +1,8 @@
 
-package com.crio.qeats.repositoryservices;
+package com.qeatsbackendfile.qeats.repositoryservices;
 
-import com.crio.qeats.dto.Restaurant;
-import com.crio.qeats.utils.FixtureHelpers;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.utils.FixtureHelpers;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;

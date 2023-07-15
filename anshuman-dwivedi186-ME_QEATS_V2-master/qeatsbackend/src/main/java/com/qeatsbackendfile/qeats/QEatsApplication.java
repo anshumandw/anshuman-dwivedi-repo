@@ -1,6 +1,6 @@
-package com.crio.qeats;
+package com.qeatsbackendfile.qeats;
 
-import com.crio.qeats.globals.GlobalConstants;
+import com.qeatsbackendfile.qeats.globals.GlobalConstants;
 import lombok.extern.log4j.Log4j2;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;

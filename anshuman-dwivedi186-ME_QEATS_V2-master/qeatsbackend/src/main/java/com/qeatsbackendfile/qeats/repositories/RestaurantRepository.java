@@ -1,12 +1,6 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
+package com.qeatsbackendfile.qeats.repositories;
 
-package com.crio.qeats.repositories;
-
-import com.crio.qeats.models.RestaurantEntity;
+import com.qeatsbackendfile.qeats.models.RestaurantEntity;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.mongodb.repository.MongoRepository;

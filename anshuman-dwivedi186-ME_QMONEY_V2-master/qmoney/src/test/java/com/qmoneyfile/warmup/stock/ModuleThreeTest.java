@@ -1,7 +1,7 @@
 
-package com.crio.warmup.stock;
+package com.qmoneyfile.warmup.stock;
 
-import com.crio.warmup.stock.dto.AnnualizedReturn;
+import com.qmoneyfile.warmup.stock.dto.AnnualizedReturn;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

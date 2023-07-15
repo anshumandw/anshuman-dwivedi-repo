@@ -1,4 +1,4 @@
-package com.crio.shorturl;
+package com.xurl_infosys.shorturl;
 
 public interface XUrl {
 

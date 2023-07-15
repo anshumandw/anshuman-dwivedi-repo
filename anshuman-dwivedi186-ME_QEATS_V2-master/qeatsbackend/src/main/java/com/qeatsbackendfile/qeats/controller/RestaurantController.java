@@ -1,14 +1,8 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
+package com.qeatsbackendfile.qeats.controller;
 
-package com.crio.qeats.controller;
-
-import com.crio.qeats.exchanges.GetRestaurantsRequest;
-import com.crio.qeats.exchanges.GetRestaurantsResponse;
-import com.crio.qeats.services.RestaurantService;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsRequest;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsResponse;
+import com.qeatsbackendfile.qeats.services.RestaurantService;
 import java.time.LocalTime;
 import javax.validation.Valid;
 import lombok.extern.apachecommons.CommonsLog;
@@ -25,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-// TODO: CRIO_TASK_MODULE_RESTAURANTSAPI
+// TODO: qeatsbackendfile_TASK_MODULE_RESTAURANTSAPI
 // Implement Controller using Spring annotations.
 // Remember, annotations have various "targets". They can be class level, method level or others.
 @RestController

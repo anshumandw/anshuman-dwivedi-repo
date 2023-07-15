@@ -1,12 +1,12 @@
 
-package com.crio.warmup.stock.portfolio;
+package com.qmoneyfile.warmup.stock.portfolio;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
 
-import com.crio.warmup.stock.dto.AnnualizedReturn;
-import com.crio.warmup.stock.dto.PortfolioTrade;
-import com.crio.warmup.stock.dto.TiingoCandle;
+import com.qmoneyfile.warmup.stock.dto.AnnualizedReturn;
+import com.qmoneyfile.warmup.stock.dto.PortfolioTrade;
+import com.qmoneyfile.warmup.stock.dto.TiingoCandle;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

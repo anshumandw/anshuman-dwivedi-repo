@@ -1,4 +1,4 @@
-package com.crio.qcalc;
+package com.Qcalcfile.qcalc;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,5 +1,5 @@
 
-package com.crio.warmup.stock.portfolio;
+package com.qmoneyfile.warmup.stock.portfolio;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

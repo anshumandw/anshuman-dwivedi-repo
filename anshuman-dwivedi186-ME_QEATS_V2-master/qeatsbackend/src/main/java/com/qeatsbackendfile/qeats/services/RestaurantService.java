@@ -1,14 +1,7 @@
+package com.qeatsbackendfile.qeats.services;
 
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
-package com.crio.qeats.services;
-
-import com.crio.qeats.exchanges.GetRestaurantsRequest;
-import com.crio.qeats.exchanges.GetRestaurantsResponse;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsRequest;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsResponse;
 import java.time.LocalTime;
 
 public interface RestaurantService {

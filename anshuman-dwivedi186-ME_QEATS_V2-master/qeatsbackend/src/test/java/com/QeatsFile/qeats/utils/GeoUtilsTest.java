@@ -1,4 +1,4 @@
-package com.crio.qeats.utils;
+package com.QeatsFile.qeats.utils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,12 +1,6 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
+package com.qeatsbackendfile.qeats.exchanges;
 
-package com.crio.qeats.exchanges;
-
-import com.crio.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -15,7 +9,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-// TODO: CRIO_TASK_MODULE_RESTAURANTSAPI
+
 //  Implement GetRestaurantsRequest.
 //  Complete the class such that it is able to deserialize the incoming query params from
 //  REST API clients.

@@ -1,5 +1,5 @@
 
-package com.crio.qeats.exceptions;
+package com.qeatsbackendfile.qeats.exceptions;
 
 abstract class QEatsException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.crio.qeats.utils;
+package com.qeatsbackendfile.qeats.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;

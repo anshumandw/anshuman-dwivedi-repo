@@ -1,4 +1,4 @@
-package com.crio.shorturl;
+package com.xurl_infosys.shorturl;
 
 import java.util.HashMap;
 

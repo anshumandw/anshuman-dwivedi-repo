@@ -1,4 +1,4 @@
-package com.crio.qeats.utils;
+package com.QeatsFile.qeats.utils;
 
 import com.google.common.io.Resources;
 import java.io.IOException;

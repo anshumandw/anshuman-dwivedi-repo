@@ -1,5 +1,5 @@
 
-package com.crio.qeats.log;
+package com.qeatsbackendfile.qeats.log;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;

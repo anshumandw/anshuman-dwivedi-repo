@@ -1,19 +1,12 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
+package com.qeatsbackendfile.qeats.exchanges;
 
-package com.crio.qeats.exchanges;
-
-import com.crio.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-// TODO: CRIO_TASK_MODULE_RESTAURANTSAPI
 //  Implement GetRestaurantsResponse.
 // Complete the class such that it produces the following JSON during serialization.
 // {

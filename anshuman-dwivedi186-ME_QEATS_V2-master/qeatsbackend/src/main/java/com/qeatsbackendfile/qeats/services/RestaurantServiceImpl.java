@@ -1,16 +1,9 @@
+package com.qeatsbackendfile.qeats.services;
 
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
-package com.crio.qeats.services;
-
-import com.crio.qeats.dto.Restaurant;
-import com.crio.qeats.exchanges.GetRestaurantsRequest;
-import com.crio.qeats.exchanges.GetRestaurantsResponse;
-import com.crio.qeats.repositoryservices.RestaurantRepositoryService;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsRequest;
+import com.qeatsbackendfile.qeats.exchanges.GetRestaurantsResponse;
+import com.qeatsbackendfile.qeats.repositoryservices.RestaurantRepositoryService;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;

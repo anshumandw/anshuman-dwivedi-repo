@@ -1,12 +1,6 @@
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
+package com.qeatsbackendfile.qeats.repositoryservices;
 
-package com.crio.qeats.repositoryservices;
-
-import com.crio.qeats.dto.Restaurant;
+import com.qeatsbackendfile.qeats.dto.Restaurant;
 import java.time.LocalTime;
 import java.util.List;
 import java.util.concurrent.Future;

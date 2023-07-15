@@ -1,4 +1,4 @@
-package com.crio.qeats.utils;
+package com.qeatsbackendfile.qeats.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

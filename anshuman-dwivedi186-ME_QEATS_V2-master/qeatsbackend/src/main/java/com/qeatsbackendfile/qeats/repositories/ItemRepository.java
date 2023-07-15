@@ -1,7 +1,7 @@
 
-package com.crio.qeats.repositories;
+package com.qeatsbackendfile.qeats.repositories;
 
-import com.crio.qeats.models.ItemEntity;
+import com.qeatsbackendfile.qeats.models.ItemEntity;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.mongodb.repository.MongoRepository;
