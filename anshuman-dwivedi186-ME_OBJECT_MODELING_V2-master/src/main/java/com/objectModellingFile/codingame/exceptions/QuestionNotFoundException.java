@@ -1,4 +1,4 @@
-package com.crio.codingame.exceptions;
+package com.objectModellingFile.codingame.exceptions;
 
 public class QuestionNotFoundException extends RuntimeException {
     public QuestionNotFoundException()

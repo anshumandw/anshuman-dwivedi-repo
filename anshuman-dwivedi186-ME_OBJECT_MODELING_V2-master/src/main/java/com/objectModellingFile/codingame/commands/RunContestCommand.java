@@ -1,10 +1,10 @@
-package com.crio.codingame.commands;
+package com.objectModellingFile.codingame.commands;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.dtos.ContestSummaryDto;
-import com.crio.codingame.services.IContestService;
+import com.objectModellingFile.codingame.dtos.ContestSummaryDto;
+import com.objectModellingFile.codingame.services.IContestService;
 
 public class RunContestCommand implements ICommand {
 

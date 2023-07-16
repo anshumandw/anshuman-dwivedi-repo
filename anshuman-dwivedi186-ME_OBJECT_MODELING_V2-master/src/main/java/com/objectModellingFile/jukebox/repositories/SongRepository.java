@@ -1,11 +1,11 @@
-package com.crio.jukebox.repositories;
+package com.objectModellingFile.jukebox.repositories;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import com.crio.jukebox.entities.Songs;
+import com.objectModellingFile.jukebox.entities.Songs;
 
 public class SongRepository implements ISongRepository {
     

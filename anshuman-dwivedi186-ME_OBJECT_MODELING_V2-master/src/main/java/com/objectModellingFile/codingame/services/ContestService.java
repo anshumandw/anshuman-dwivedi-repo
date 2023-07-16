@@ -1,24 +1,24 @@
-package com.crio.codingame.services;
+package com.objectModellingFile.codingame.services;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.dtos.ContestSummaryDto;
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.ContestStatus;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
-import com.crio.codingame.entities.ScoreWeight;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidContestException;
-import com.crio.codingame.exceptions.QuestionNotFoundException;
-import com.crio.codingame.exceptions.UserNotFoundException;
-import com.crio.codingame.repositories.IContestRepository;
-import com.crio.codingame.repositories.IQuestionRepository;
-import com.crio.codingame.repositories.IUserRepository;
+import com.objectModellingFile.codingame.dtos.ContestSummaryDto;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.ContestStatus;
+import com.objectModellingFile.codingame.entities.Level;
+import com.objectModellingFile.codingame.entities.Question;
+import com.objectModellingFile.codingame.entities.ScoreWeight;
+import com.objectModellingFile.codingame.entities.User;
+import com.objectModellingFile.codingame.exceptions.ContestNotFoundException;
+import com.objectModellingFile.codingame.exceptions.InvalidContestException;
+import com.objectModellingFile.codingame.exceptions.QuestionNotFoundException;
+import com.objectModellingFile.codingame.exceptions.UserNotFoundException;
+import com.objectModellingFile.codingame.repositories.IContestRepository;
+import com.objectModellingFile.codingame.repositories.IQuestionRepository;
+import com.objectModellingFile.codingame.repositories.IUserRepository;
 
 
 public class ContestService implements IContestService {
@@ -53,7 +53,6 @@ public class ContestService implements IContestService {
         return contest;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Return a specific List of Random Questions as specified by numQuestion.
 
     private List<Question> pickQuestionsList(final List<Question> questions,final Integer numQuestion){
@@ -76,7 +75,6 @@ public class ContestService implements IContestService {
         return quesList;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Get All Contest if level is not specified.
     // Or
     // Get List of Contest which matches the level provided.

@@ -1,11 +1,11 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
-import com.crio.jukebox.entities.User;
-import com.crio.jukebox.exceptions.UserNotFoundException;
-import com.crio.jukebox.repositories.IPlaylistRepository;
-import com.crio.jukebox.repositories.IUserRepository;
-import com.crio.jukebox.repositories.PlaylistRepository;
-import com.crio.jukebox.repositories.UserRepository;
+import com.objectModellingFile.jukebox.entities.User;
+import com.objectModellingFile.jukebox.exceptions.UserNotFoundException;
+import com.objectModellingFile.jukebox.repositories.IPlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.IUserRepository;
+import com.objectModellingFile.jukebox.repositories.PlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.UserRepository;
 
 public class UserService implements IUserService {
 

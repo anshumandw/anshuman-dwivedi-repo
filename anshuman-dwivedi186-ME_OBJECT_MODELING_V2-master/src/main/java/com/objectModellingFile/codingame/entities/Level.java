@@ -1,5 +1,5 @@
 
-package com.crio.codingame.entities;
+package com.objectModellingFile.codingame.entities;
 
 public enum Level {
     LOW,MEDIUM,HIGH

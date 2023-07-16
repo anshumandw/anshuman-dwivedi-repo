@@ -1,6 +1,6 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
-import com.crio.jukebox.entities.User;
+import com.objectModellingFile.jukebox.entities.User;
 
 public interface IUserService {
     public User create(String name);

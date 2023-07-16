@@ -1,7 +1,7 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.entities.Songs;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.Songs;
 
 public interface ISongService {
 

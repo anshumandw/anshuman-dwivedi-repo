@@ -1,9 +1,9 @@
-package com.crio.codingame.dtos;
+package com.objectModellingFile.codingame.dtos;
 
 import java.util.List;
 
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.User;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.User;
 
 public class ContestSummaryDto {
     private final Contest contest;

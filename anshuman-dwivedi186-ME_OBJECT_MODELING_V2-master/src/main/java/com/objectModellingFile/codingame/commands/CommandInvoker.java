@@ -1,10 +1,10 @@
-package com.crio.codingame.commands;
+package com.objectModellingFile.codingame.commands;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.crio.codingame.exceptions.NoSuchCommandException;
+import com.objectModellingFile.codingame.exceptions.NoSuchCommandException;
 
 public class CommandInvoker {
     private static final Map<String, ICommand> commandMap = new HashMap<>();

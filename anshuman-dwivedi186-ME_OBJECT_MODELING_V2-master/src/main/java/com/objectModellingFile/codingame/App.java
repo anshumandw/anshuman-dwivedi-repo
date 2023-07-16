@@ -1,4 +1,4 @@
-package com.crio.codingame;
+package com.objectModellingFile.codingame;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,9 +8,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.appConfig.ApplicationConfig;
-import com.crio.codingame.commands.CommandInvoker;
-import com.crio.codingame.exceptions.NoSuchCommandException;
+import com.objectModellingFile.codingame.appConfig.ApplicationConfig;
+import com.objectModellingFile.codingame.commands.CommandInvoker;
+import com.objectModellingFile.codingame.exceptions.NoSuchCommandException;
 
 public class App {
     // To run the application  ./gradlew run --args="INPUT_FILE=input.txt"

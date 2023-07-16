@@ -1,7 +1,7 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
 import java.util.List;
-import com.crio.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.Playlist;
 
 public interface IPlaylistService {
     public Playlist create(Integer userId, String name, List<String> songs);

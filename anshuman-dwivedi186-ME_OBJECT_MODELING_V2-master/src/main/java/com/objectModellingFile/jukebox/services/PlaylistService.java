@@ -1,13 +1,13 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
 import java.util.List;
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.entities.User;
-import com.crio.jukebox.exceptions.PlaylistNotFoundException;
-import com.crio.jukebox.exceptions.UserNotFoundException;
-import com.crio.jukebox.repositories.IPlaylistRepository;
-import com.crio.jukebox.repositories.ISongRepository;
-import com.crio.jukebox.repositories.IUserRepository;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.User;
+import com.objectModellingFile.jukebox.exceptions.PlaylistNotFoundException;
+import com.objectModellingFile.jukebox.exceptions.UserNotFoundException;
+import com.objectModellingFile.jukebox.repositories.IPlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.ISongRepository;
+import com.objectModellingFile.jukebox.repositories.IUserRepository;
 
 public class PlaylistService implements IPlaylistService {
 

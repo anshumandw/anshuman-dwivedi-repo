@@ -1,4 +1,4 @@
-package com.crio.codingame.repositories;
+package com.objectModellingFile.codingame.repositories;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.Level;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.Level;
 
 public class ContestRepository implements IContestRepository {
 
@@ -37,7 +37,6 @@ public class ContestRepository implements IContestRepository {
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of Contest Present in the Repository
     // Tip:- Use Java Streams
 
@@ -81,7 +80,6 @@ public class ContestRepository implements IContestRepository {
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of Contest Present in the Repository provided Level
     // Tip:- Use Java Streams
 

@@ -1,20 +1,20 @@
-package com.crio.codingame.services;
+package com.objectModellingFile.codingame.services;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.crio.codingame.dtos.UserRegistrationDto;
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.ContestStatus;
-import com.crio.codingame.entities.RegisterationStatus;
-import com.crio.codingame.entities.ScoreOrder;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidOperationException;
-import com.crio.codingame.exceptions.UserNotFoundException;
-import com.crio.codingame.repositories.IContestRepository;
-import com.crio.codingame.repositories.IUserRepository;
+import com.objectModellingFile.codingame.dtos.UserRegistrationDto;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.ContestStatus;
+import com.objectModellingFile.codingame.entities.RegisterationStatus;
+import com.objectModellingFile.codingame.entities.ScoreOrder;
+import com.objectModellingFile.codingame.entities.User;
+import com.objectModellingFile.codingame.exceptions.ContestNotFoundException;
+import com.objectModellingFile.codingame.exceptions.InvalidOperationException;
+import com.objectModellingFile.codingame.exceptions.UserNotFoundException;
+import com.objectModellingFile.codingame.repositories.IContestRepository;
+import com.objectModellingFile.codingame.repositories.IUserRepository;
 
 public class UserService implements IUserService {
 
@@ -25,7 +25,7 @@ public class UserService implements IUserService {
         this.userRepository = userRepository;
         this.contestRepository = contestRepository;
     }
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: objectModellingFile_TASK_MODULE_SERVICES
     // Create and store User into the repository.
     @Override
     public User create(String name) {
@@ -33,7 +33,6 @@ public class UserService implements IUserService {
         return user;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Get All Users in Ascending Order w.r.t scores if ScoreOrder ASC.
     // Or
     // Get All Users in Descending Order w.r.t scores if ScoreOrder DESC.
@@ -81,7 +80,6 @@ public class UserService implements IUserService {
         return new UserRegistrationDto(contest.getName(), user.getName(),RegisterationStatus.REGISTERED);
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Withdraw the user from the contest
     // Hint :- Refer Unit Testcases withdrawContest method
 

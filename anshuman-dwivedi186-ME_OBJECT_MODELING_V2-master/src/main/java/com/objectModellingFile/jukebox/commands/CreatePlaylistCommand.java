@@ -1,9 +1,9 @@
-package com.crio.jukebox.commands;
+package com.objectModellingFile.jukebox.commands;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.services.IPlaylistService;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.services.IPlaylistService;
 
 public class CreatePlaylistCommand implements ICommand {
 

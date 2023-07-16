@@ -1,4 +1,4 @@
-package com.crio.jukebox.services;
+package com.objectModellingFile.jukebox.services;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.entities.Songs;
-import com.crio.jukebox.exceptions.PlaylistNotFoundException;
-import com.crio.jukebox.exceptions.SongNotFoundException;
-import com.crio.jukebox.exceptions.UserNotHavingPlaylistException;
-import com.crio.jukebox.repositories.IPlaylistRepository;
-import com.crio.jukebox.repositories.ISongRepository;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.Songs;
+import com.objectModellingFile.jukebox.exceptions.PlaylistNotFoundException;
+import com.objectModellingFile.jukebox.exceptions.SongNotFoundException;
+import com.objectModellingFile.jukebox.exceptions.UserNotHavingPlaylistException;
+import com.objectModellingFile.jukebox.repositories.IPlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.ISongRepository;
 
 public class SongService implements ISongService{
 

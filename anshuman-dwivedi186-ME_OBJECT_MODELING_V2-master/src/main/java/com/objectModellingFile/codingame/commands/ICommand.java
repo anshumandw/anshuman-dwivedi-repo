@@ -1,4 +1,4 @@
-package com.crio.codingame.commands;
+package com.objectModellingFile.codingame.commands;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.crio.codingame.dtos;
+package com.objectModellingFile.codingame.dtos;
 
-import com.crio.codingame.entities.RegisterationStatus;
+import com.objectModellingFile.codingame.entities.RegisterationStatus;
 
 public class UserRegistrationDto {
     private final String contestName;

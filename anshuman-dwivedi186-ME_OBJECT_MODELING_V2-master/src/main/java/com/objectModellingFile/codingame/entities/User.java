@@ -1,4 +1,4 @@
-package com.crio.codingame.entities;
+package com.objectModellingFile.codingame.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,7 +53,6 @@ public class User extends BaseEntity {
         return contests.stream().collect(Collectors.toList());
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Check if Contest is present in the User or Not
 
     public boolean checkIfContestExists(Contest contest){

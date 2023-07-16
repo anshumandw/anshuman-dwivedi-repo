@@ -1,6 +1,6 @@
-package com.crio.jukebox.repositories;
+package com.objectModellingFile.jukebox.repositories;
 
-import com.crio.jukebox.entities.Songs;
+import com.objectModellingFile.jukebox.entities.Songs;
 
 public interface ISongRepository extends CRUDRepository<Songs, String>  {
     

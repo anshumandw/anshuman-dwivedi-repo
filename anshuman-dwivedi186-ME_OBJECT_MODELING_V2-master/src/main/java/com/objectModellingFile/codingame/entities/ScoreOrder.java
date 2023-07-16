@@ -1,4 +1,4 @@
-package com.crio.codingame.entities;
+package com.objectModellingFile.codingame.entities;
 
 public enum ScoreOrder {
     ASC,DESC

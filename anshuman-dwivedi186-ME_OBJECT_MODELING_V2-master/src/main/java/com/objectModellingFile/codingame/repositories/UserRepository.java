@@ -1,4 +1,4 @@
-package com.crio.codingame.repositories;
+package com.objectModellingFile.codingame.repositories;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.entities.User;
+import com.objectModellingFile.codingame.entities.User;
 
 public class UserRepository implements IUserRepository{
 
@@ -34,7 +34,6 @@ public class UserRepository implements IUserRepository{
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of User Present in the Repository
     // Tip:- Use Java Streams
 
@@ -75,7 +74,7 @@ public class UserRepository implements IUserRepository{
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: objectModellingFile_TASK_MODULE_SERVICES
     // Find the User Present in the Repository provided name
     // Tip:- Use Java Streams
 

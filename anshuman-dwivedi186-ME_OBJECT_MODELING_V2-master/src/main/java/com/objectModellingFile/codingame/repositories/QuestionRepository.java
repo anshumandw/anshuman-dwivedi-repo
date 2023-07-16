@@ -1,4 +1,4 @@
-package com.crio.codingame.repositories;
+package com.objectModellingFile.codingame.repositories;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
+import com.objectModellingFile.codingame.entities.Level;
+import com.objectModellingFile.codingame.entities.Question;
 
 public class QuestionRepository implements IQuestionRepository {
 
@@ -35,7 +35,6 @@ public class QuestionRepository implements IQuestionRepository {
         return entity;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of Question Present in the Repository
     // Tip:- Use Java Streams
 
@@ -76,7 +75,6 @@ public class QuestionRepository implements IQuestionRepository {
         return 0;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of Question Present in the Repository provided Level
     // Tip:- Use Java Streams
 

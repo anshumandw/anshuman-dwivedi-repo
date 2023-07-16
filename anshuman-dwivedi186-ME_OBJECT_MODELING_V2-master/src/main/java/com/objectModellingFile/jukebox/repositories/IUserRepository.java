@@ -1,8 +1,8 @@
-package com.crio.jukebox.repositories;
+package com.objectModellingFile.jukebox.repositories;
 
 import java.util.Optional;
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.entities.User;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.User;
 
 public interface IUserRepository extends CRUDRepository<User, String>  {
     public Optional<User> findByName(String name);

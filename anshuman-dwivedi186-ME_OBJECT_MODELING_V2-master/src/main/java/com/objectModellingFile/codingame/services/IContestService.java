@@ -1,14 +1,14 @@
-package com.crio.codingame.services;
+package com.objectModellingFile.codingame.services;
 
 import java.util.List;
 
-import com.crio.codingame.dtos.ContestSummaryDto;
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidContestException;
-import com.crio.codingame.exceptions.QuestionNotFoundException;
-import com.crio.codingame.exceptions.UserNotFoundException;
+import com.objectModellingFile.codingame.dtos.ContestSummaryDto;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.Level;
+import com.objectModellingFile.codingame.exceptions.ContestNotFoundException;
+import com.objectModellingFile.codingame.exceptions.InvalidContestException;
+import com.objectModellingFile.codingame.exceptions.QuestionNotFoundException;
+import com.objectModellingFile.codingame.exceptions.UserNotFoundException;
 
 public interface IContestService {
     public Contest create(String contestName, Level level, String contestCreator, Integer numQuestion) throws UserNotFoundException, QuestionNotFoundException;

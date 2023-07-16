@@ -1,4 +1,4 @@
-package com.crio.jukebox;
+package com.objectModellingFile.jukebox;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
-import com.crio.jukebox.appConfig.ApplicationConfig;
-import com.crio.jukebox.commands.CommandInvoker;
+import com.objectModellingFile.jukebox.appConfig.ApplicationConfig;
+import com.objectModellingFile.jukebox.commands.CommandInvoker;
 
 
 

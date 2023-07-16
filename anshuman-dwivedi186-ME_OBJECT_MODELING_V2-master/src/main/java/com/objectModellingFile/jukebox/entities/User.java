@@ -1,4 +1,4 @@
-package com.crio.jukebox.entities;
+package com.objectModellingFile.jukebox.entities;
 
 import java.util.ArrayList;
 import java.util.List;

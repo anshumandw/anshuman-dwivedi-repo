@@ -1,4 +1,4 @@
-package com.crio.codingame.entities;
+package com.objectModellingFile.codingame.entities;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.crio.jukebox.commands;
+package com.objectModellingFile.jukebox.commands;
 
 import java.util.Map;
-import com.crio.jukebox.exceptions.NoSuchCommandException;
+import com.objectModellingFile.jukebox.exceptions.NoSuchCommandException;
 import java.util.HashMap;
 import java.util.List;
 

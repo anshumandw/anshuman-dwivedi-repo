@@ -1,4 +1,4 @@
-package com.crio.jukebox.repositories;
+package com.objectModellingFile.jukebox.repositories;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import com.crio.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.Playlist;
 
 public class PlaylistRepository implements IPlaylistRepository{
 

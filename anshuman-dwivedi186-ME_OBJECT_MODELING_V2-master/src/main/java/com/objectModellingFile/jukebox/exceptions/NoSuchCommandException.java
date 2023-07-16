@@ -1,4 +1,4 @@
-package com.crio.jukebox.exceptions;
+package com.objectModellingFile.jukebox.exceptions;
 
 public class NoSuchCommandException extends RuntimeException {
     public NoSuchCommandException()

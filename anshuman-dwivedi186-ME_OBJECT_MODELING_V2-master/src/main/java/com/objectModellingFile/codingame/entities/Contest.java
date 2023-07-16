@@ -1,10 +1,10 @@
 
-package com.crio.codingame.entities;
+package com.objectModellingFile.codingame.entities;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.crio.codingame.exceptions.InvalidContestException;
+import com.objectModellingFile.codingame.exceptions.InvalidContestException;
 
 public class Contest extends BaseEntity{
     private final String name;
@@ -41,7 +41,6 @@ public class Contest extends BaseEntity{
         }
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
     // Change the Contest Status to ENDED
 
     public void endContest(){

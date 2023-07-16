@@ -1,4 +1,4 @@
-package com.crio.jukebox.exceptions;
+package com.objectModellingFile.jukebox.exceptions;
 
 public class PlaylistNotFoundException extends RuntimeException{
     public PlaylistNotFoundException()

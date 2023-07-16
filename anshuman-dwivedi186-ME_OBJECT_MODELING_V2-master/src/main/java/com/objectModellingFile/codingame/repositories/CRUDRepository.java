@@ -1,4 +1,4 @@
-package com.crio.codingame.repositories;
+package com.objectModellingFile.codingame.repositories;
 
 import java.util.List;
 import java.util.Optional;

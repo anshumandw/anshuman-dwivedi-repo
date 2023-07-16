@@ -1,11 +1,11 @@
-package com.crio.jukebox.repositories;
+package com.objectModellingFile.jukebox.repositories;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import com.crio.jukebox.entities.User;
+import com.objectModellingFile.jukebox.entities.User;
 
 public class UserRepository implements IUserRepository{
 

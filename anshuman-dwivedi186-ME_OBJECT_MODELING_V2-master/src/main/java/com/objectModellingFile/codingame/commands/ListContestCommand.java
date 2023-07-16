@@ -1,10 +1,10 @@
-package com.crio.codingame.commands;
+package com.objectModellingFile.codingame.commands;
 
 import java.util.List;
 
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.services.IContestService;
+import com.objectModellingFile.codingame.entities.Contest;
+import com.objectModellingFile.codingame.entities.Level;
+import com.objectModellingFile.codingame.services.IContestService;
 
 public class ListContestCommand implements ICommand{
 
@@ -14,7 +14,6 @@ public class ListContestCommand implements ICommand{
         this.contestService = contestService;
     }
 
-    // TODO: CRIO_TASK_MODULE_CONTROLLER
     // Execute getAllContestLevelWise method of IContestService and print the result.
     // Look for the unit tests to see the expected output.
     // Sample Input Token List:- ["LIST_CONTEST","HIGH"]

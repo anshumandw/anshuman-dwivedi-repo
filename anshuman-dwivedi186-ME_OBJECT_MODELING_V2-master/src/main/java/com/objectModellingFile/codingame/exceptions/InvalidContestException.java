@@ -1,4 +1,4 @@
-package com.crio.codingame.exceptions;
+package com.objectModellingFile.codingame.exceptions;
 
 public class InvalidContestException extends RuntimeException{
     public InvalidContestException()
