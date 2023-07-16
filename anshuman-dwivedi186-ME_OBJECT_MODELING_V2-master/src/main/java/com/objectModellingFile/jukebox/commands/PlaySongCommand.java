@@ -1,9 +1,9 @@
-package com.crio.jukebox.commands;
+package com.objectModellingFile.jukebox.commands;
 
 import java.util.List;
-import com.crio.jukebox.entities.Playlist;
-import com.crio.jukebox.entities.Songs;
-import com.crio.jukebox.services.ISongService;
+import com.objectModellingFile.jukebox.entities.Playlist;
+import com.objectModellingFile.jukebox.entities.Songs;
+import com.objectModellingFile.jukebox.services.ISongService;
 
 public class PlaySongCommand implements ICommand {
 

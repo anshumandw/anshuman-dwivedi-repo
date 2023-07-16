@@ -1,4 +1,4 @@
-package com.crio.codingame.services;
+package com.objectmodellinginfosys.codingame.services;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.times;
@@ -8,9 +8,9 @@ import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
-import com.crio.codingame.repositories.IQuestionRepository;
+import com.objectmodellinginfosys.codingame.entities.Level;
+import com.objectmodellinginfosys.codingame.entities.Question;
+import com.objectmodellinginfosys.codingame.repositories.IQuestionRepository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

@@ -1,4 +1,4 @@
-package com.crio.codingame.commands;
+package com.objectmodellinginfosys.codingame.commands;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
@@ -14,14 +14,14 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.ContestStatus;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.exceptions.QuestionNotFoundException;
-import com.crio.codingame.exceptions.UserNotFoundException;
-import com.crio.codingame.services.IContestService;
+import com.objectmodellinginfosys.codingame.entities.Contest;
+import com.objectmodellinginfosys.codingame.entities.ContestStatus;
+import com.objectmodellinginfosys.codingame.entities.Level;
+import com.objectmodellinginfosys.codingame.entities.Question;
+import com.objectmodellinginfosys.codingame.entities.User;
+import com.objectmodellinginfosys.codingame.exceptions.QuestionNotFoundException;
+import com.objectmodellinginfosys.codingame.exceptions.UserNotFoundException;
+import com.objectmodellinginfosys.codingame.services.IContestService;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

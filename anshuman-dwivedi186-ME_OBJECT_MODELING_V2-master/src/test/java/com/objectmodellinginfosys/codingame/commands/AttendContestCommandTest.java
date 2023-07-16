@@ -1,4 +1,4 @@
-package com.crio.codingame.commands;
+package com.objectmodellinginfosys.codingame.commands;
 
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.times;
@@ -9,12 +9,12 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
 
-import com.crio.codingame.dtos.UserRegistrationDto;
-import com.crio.codingame.entities.RegisterationStatus;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidOperationException;
-import com.crio.codingame.exceptions.UserNotFoundException;
-import com.crio.codingame.services.UserService;
+import com.objectmodellinginfosys.codingame.dtos.UserRegistrationDto;
+import com.objectmodellinginfosys.codingame.entities.RegisterationStatus;
+import com.objectmodellinginfosys.codingame.exceptions.ContestNotFoundException;
+import com.objectmodellinginfosys.codingame.exceptions.InvalidOperationException;
+import com.objectmodellinginfosys.codingame.exceptions.UserNotFoundException;
+import com.objectmodellinginfosys.codingame.services.UserService;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

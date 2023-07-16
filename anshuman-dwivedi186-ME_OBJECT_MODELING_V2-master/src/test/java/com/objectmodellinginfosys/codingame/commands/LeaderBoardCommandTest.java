@@ -1,4 +1,4 @@
-package com.crio.codingame.commands;
+package com.objectmodellinginfosys.codingame.commands;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.times;
@@ -9,9 +9,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
 
-import com.crio.codingame.entities.ScoreOrder;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.services.IUserService;
+import com.objectmodellinginfosys.codingame.entities.ScoreOrder;
+import com.objectmodellinginfosys.codingame.entities.User;
+import com.objectmodellinginfosys.codingame.services.IUserService;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

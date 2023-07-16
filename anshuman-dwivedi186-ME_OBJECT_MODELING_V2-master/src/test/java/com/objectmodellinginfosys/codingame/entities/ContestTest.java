@@ -1,9 +1,9 @@
-package com.crio.codingame.entities;
+package com.objectmodellinginfosys.codingame.entities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.crio.codingame.exceptions.InvalidContestException;
+import com.objectmodellinginfosys.codingame.exceptions.InvalidContestException;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -13,7 +13,6 @@ import org.junit.jupiter.api.Test;
 public class ContestTest {
 
 
-   // TODO: WARNING!!!
    //  DO NOT MODIFY ANY FILES IN THE TESTS/ ASSESSMENTS UNLESS ASKED TO.
    //  Any modifications in this file may result in Assessment failure!
 
@@ -23,7 +22,7 @@ public class ContestTest {
    @DisplayName("#1 Contest should throw InvalidContestException if any Question Level in the List is not equal to Contest Level")
    public void contest_ShouldThrowInvalidContestException_GivenInvalidQuestionList(){
        //Arrange
-       String name = "Crio.Do PhonePe TechScholars Assessment #1";
+       String name = "objectmodellinginfosys.Do PhonePe TechScholars Assessment #1";
        List<Question> questions =  new ArrayList<Question>(){
            {
            add(new Question("Question1",Level.LOW,10));
@@ -45,7 +44,7 @@ public class ContestTest {
     public void endContest_ShouldEndContest(){
         //Arrange
         String id = "1";
-        String name = "Crio.Do PhonePe TechScholars Assessment #1";
+        String name = "objectmodellinginfosys.Do PhonePe TechScholars Assessment #1";
         List<Question> questions =  new ArrayList<Question>(){
             {
             add(new Question("1", "Question1",Level.LOW,10));

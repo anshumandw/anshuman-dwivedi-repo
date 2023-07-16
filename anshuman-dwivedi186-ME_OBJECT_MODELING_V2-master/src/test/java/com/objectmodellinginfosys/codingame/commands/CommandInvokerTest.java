@@ -1,10 +1,10 @@
-package com.crio.codingame.commands;
+package com.objectmodellinginfosys.codingame.commands;
 
 import static org.mockito.ArgumentMatchers.anyList;
 
 import java.util.ArrayList;
 
-import com.crio.codingame.exceptions.NoSuchCommandException;
+import com.objectmodellinginfosys.codingame.exceptions.NoSuchCommandException;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

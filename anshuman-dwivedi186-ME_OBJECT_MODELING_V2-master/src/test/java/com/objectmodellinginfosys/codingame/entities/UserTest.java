@@ -1,4 +1,4 @@
-package com.crio.codingame.entities;
+package com.objectmodellinginfosys.codingame.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 @DisplayName("UserTest")
 public class UserTest {
 
-   // TODO: WARNING!!!
    //  DO NOT MODIFY ANY FILES IN THE TESTS/ ASSESSMENTS UNLESS ASKED TO.
    //  Any modifications in this file may result in Assessment failure!
 
@@ -19,7 +18,7 @@ public class UserTest {
    public void checkIfContestExists_ShouldReturnTrue_GivenContest(){
        //Arrange
        String id = "1";
-       String name = "Crio.Do PhonePe TechScholars Assessment #1";
+       String name = "objectmodellinginfosys.Do PhonePe TechScholars Assessment #1";
        List<Question> questions =  new ArrayList<Question>(){
            {
            add(new Question("1", "Question1",Level.LOW,10));
@@ -42,7 +41,7 @@ public class UserTest {
    public void checkIfContestExists_ShouldReturnFalse_GivenContest(){
        //Arrange
        String id = "1";
-       String name = "Crio.Do PhonePe TechScholars Assessment #1";
+       String name = "objectmodellinginfosys.Do PhonePe TechScholars Assessment #1";
        List<Question> questions =  new ArrayList<Question>(){
            {
            add(new Question("1", "Question1",Level.LOW,10));

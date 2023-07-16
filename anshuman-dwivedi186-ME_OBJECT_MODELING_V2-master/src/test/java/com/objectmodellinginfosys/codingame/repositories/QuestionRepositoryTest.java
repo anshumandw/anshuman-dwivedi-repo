@@ -1,4 +1,4 @@
-package com.crio.codingame.repositories;
+package com.objectmodellinginfosys.codingame.repositories;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
+import com.objectmodellinginfosys.codingame.entities.Level;
+import com.objectmodellinginfosys.codingame.entities.Question;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

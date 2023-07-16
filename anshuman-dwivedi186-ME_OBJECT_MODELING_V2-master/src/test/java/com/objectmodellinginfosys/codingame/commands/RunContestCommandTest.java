@@ -1,4 +1,4 @@
-package com.crio.codingame.commands;
+package com.objectmodellinginfosys.codingame.commands;
 
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.times;
@@ -10,15 +10,15 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.crio.codingame.dtos.ContestSummaryDto;
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.ContestStatus;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidContestException;
-import com.crio.codingame.services.IContestService;
+import com.objectmodellinginfosys.codingame.dtos.ContestSummaryDto;
+import com.objectmodellinginfosys.codingame.entities.Contest;
+import com.objectmodellinginfosys.codingame.entities.ContestStatus;
+import com.objectmodellinginfosys.codingame.entities.Level;
+import com.objectmodellinginfosys.codingame.entities.Question;
+import com.objectmodellinginfosys.codingame.entities.User;
+import com.objectmodellinginfosys.codingame.exceptions.ContestNotFoundException;
+import com.objectmodellinginfosys.codingame.exceptions.InvalidContestException;
+import com.objectmodellinginfosys.codingame.services.IContestService;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

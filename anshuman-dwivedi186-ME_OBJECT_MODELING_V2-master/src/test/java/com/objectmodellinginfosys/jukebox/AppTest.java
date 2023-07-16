@@ -1,5 +1,5 @@
 
-package com.crio.jukebox;
+package com.objectmodellinginfosys.jukebox;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

@@ -1,25 +1,25 @@
-package com.crio.jukebox.appConfig;
+package com.objectModellingFile.jukebox.appConfig;
 
-import com.crio.jukebox.commands.CommandInvoker;
-import com.crio.jukebox.commands.CreatePlaylistCommand;
-import com.crio.jukebox.commands.CreateUserCommand;
-import com.crio.jukebox.commands.DeletePlaylistCommand;
-import com.crio.jukebox.commands.LoadDataCommand;
-import com.crio.jukebox.commands.ModifyPlaylistCommand;
-import com.crio.jukebox.commands.PlayPlaylistCommand;
-import com.crio.jukebox.commands.PlaySongCommand;
-import com.crio.jukebox.repositories.IPlaylistRepository;
-import com.crio.jukebox.repositories.ISongRepository;
-import com.crio.jukebox.repositories.IUserRepository;
-import com.crio.jukebox.repositories.PlaylistRepository;
-import com.crio.jukebox.repositories.SongRepository;
-import com.crio.jukebox.repositories.UserRepository;
-import com.crio.jukebox.services.IPlaylistService;
-import com.crio.jukebox.services.ISongService;
-import com.crio.jukebox.services.IUserService;
-import com.crio.jukebox.services.PlaylistService;
-import com.crio.jukebox.services.SongService;
-import com.crio.jukebox.services.UserService;
+import com.objectModellingFile.jukebox.commands.CommandInvoker;
+import com.objectModellingFile.jukebox.commands.CreatePlaylistCommand;
+import com.objectModellingFile.jukebox.commands.CreateUserCommand;
+import com.objectModellingFile.jukebox.commands.DeletePlaylistCommand;
+import com.objectModellingFile.jukebox.commands.LoadDataCommand;
+import com.objectModellingFile.jukebox.commands.ModifyPlaylistCommand;
+import com.objectModellingFile.jukebox.commands.PlayPlaylistCommand;
+import com.objectModellingFile.jukebox.commands.PlaySongCommand;
+import com.objectModellingFile.jukebox.repositories.IPlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.ISongRepository;
+import com.objectModellingFile.jukebox.repositories.IUserRepository;
+import com.objectModellingFile.jukebox.repositories.PlaylistRepository;
+import com.objectModellingFile.jukebox.repositories.SongRepository;
+import com.objectModellingFile.jukebox.repositories.UserRepository;
+import com.objectModellingFile.jukebox.services.IPlaylistService;
+import com.objectModellingFile.jukebox.services.ISongService;
+import com.objectModellingFile.jukebox.services.IUserService;
+import com.objectModellingFile.jukebox.services.PlaylistService;
+import com.objectModellingFile.jukebox.services.SongService;
+import com.objectModellingFile.jukebox.services.UserService;
 
 public class ApplicationConfig {
 

@@ -1,4 +1,4 @@
-package com.crio.codingame.services;
+package com.objectmodellinginfosys.codingame.services;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -12,19 +12,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import com.crio.codingame.dtos.UserRegistrationDto;
-import com.crio.codingame.entities.Contest;
-import com.crio.codingame.entities.ContestStatus;
-import com.crio.codingame.entities.Level;
-import com.crio.codingame.entities.Question;
-import com.crio.codingame.entities.RegisterationStatus;
-import com.crio.codingame.entities.ScoreOrder;
-import com.crio.codingame.entities.User;
-import com.crio.codingame.exceptions.ContestNotFoundException;
-import com.crio.codingame.exceptions.InvalidOperationException;
-import com.crio.codingame.exceptions.UserNotFoundException;
-import com.crio.codingame.repositories.IContestRepository;
-import com.crio.codingame.repositories.IUserRepository;
+import com.objectmodellinginfosys.codingame.dtos.UserRegistrationDto;
+import com.objectmodellinginfosys.codingame.entities.Contest;
+import com.objectmodellinginfosys.codingame.entities.ContestStatus;
+import com.objectmodellinginfosys.codingame.entities.Level;
+import com.objectmodellinginfosys.codingame.entities.Question;
+import com.objectmodellinginfosys.codingame.entities.RegisterationStatus;
+import com.objectmodellinginfosys.codingame.entities.ScoreOrder;
+import com.objectmodellinginfosys.codingame.entities.User;
+import com.objectmodellinginfosys.codingame.exceptions.ContestNotFoundException;
+import com.objectmodellinginfosys.codingame.exceptions.InvalidOperationException;
+import com.objectmodellinginfosys.codingame.exceptions.UserNotFoundException;
+import com.objectmodellinginfosys.codingame.repositories.IContestRepository;
+import com.objectmodellinginfosys.codingame.repositories.IUserRepository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
