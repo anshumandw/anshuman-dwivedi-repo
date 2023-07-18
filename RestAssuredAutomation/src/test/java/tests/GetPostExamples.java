@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.*;
 public class GetPostExamples {
 	
 	@Test
-	public void test_get() {
+	public void testGet() {
 		baseURI = "https://reqres.in/api";
 		
 		given()
