@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T23:19:37 IST" name="Default suite" finished-at="2023-07-18T23:19:38 IST" duration-ms="1249">
+  <suite started-at="2023-07-18T23:48:25 IST" name="Default suite" finished-at="2023-07-18T23:48:28 IST" duration-ms="3078">
     <groups>
     </groups>
-    <test started-at="2023-07-18T23:19:37 IST" name="Default test" finished-at="2023-07-18T23:19:38 IST" duration-ms="1249">
-      <class name="tests.TestsOnLocalAPI">
-        <test-method signature="delete()[pri:0, instance:tests.TestsOnLocalAPI@4fb3ee4e]" started-at="2023-07-18T23:19:37 IST" name="delete" finished-at="2023-07-18T23:19:38 IST" duration-ms="1211" status="PASS">
+    <test started-at="2023-07-18T23:48:25 IST" name="Default test" finished-at="2023-07-18T23:48:28 IST" duration-ms="3078">
+      <class name="tests.JsonSchemaValidatorUpdated">
+        <test-method signature="testGet()[pri:0, instance:tests.JsonSchemaValidatorUpdated@6404f418]" started-at="2023-07-18T23:48:25 IST" name="testGet" finished-at="2023-07-18T23:48:28 IST" duration-ms="3029" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete -->
-      </class> <!-- tests.TestsOnLocalAPI -->
+        </test-method> <!-- testGet -->
+      </class> <!-- tests.JsonSchemaValidatorUpdated -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
