@@ -87,4 +87,28 @@ public class StudentDAO {
 		}
 		
 	}
+
+	public static boolean updateStudent(int userId, String updatedValue) {
+		// TODO Auto-generated method stub
+		boolean flag = false;
+		try {
+			Connection con = ConnectionProvider.createConnection();
+			String q = "update students set sname = ? where sid = ?";
+//			, sname = ?, sphone = ?, scity = ?
+			//PreparedStatement
+			PreparedStatement pstmt = con.prepareStatement(q);
+			
+			pstmt.setString(1, updatedValue);
+			pstmt.setInt(2, userId);
+			
+			pstmt.executeUpdate();
+			
+			flag = true;
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return flag;
+		
+	}
 }	

@@ -15,7 +15,8 @@ public class Start {
 			System.out.println("Press 1 to Add Student");
 			System.out.println("Press 2 to Delete Student");
 			System.out.println("Press 3 to Display Student");
-			System.out.println("Press 4 to Exit");
+			System.out.println("Press 4 to Update Student");
+			System.out.println("Press 5 to Exit");
 			
 			int c = Integer.parseInt(br.readLine());
 			
@@ -56,11 +57,26 @@ public class Start {
 				}
 				
 			} else if(c == 3) {
-				//display student
-				
+				//display student				
 				StudentDAO.showAllStudent();
 				
 			} else if(c == 4) {
+				
+				System.out.println("Enter StudentID: ");
+				int studentID = Integer.parseInt(br.readLine());
+				
+				System.out.println("Enter to what change you need to update...");
+				String updateValue = br.readLine();
+			
+				boolean ans = StudentDAO.updateStudent(studentID, updateValue);
+				
+				if(ans) {
+					System.out.println("Student details updated successfully");
+				} else {
+					System.out.println("Something went wrong.....pls try again");
+				}
+			
+			} else if(c == 5) { 
 				//exit
 				break;
 			} else {
