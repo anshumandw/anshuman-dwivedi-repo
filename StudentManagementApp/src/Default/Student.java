@@ -22,6 +22,10 @@ public class Student {
 		this.studentPhone = studentPhone;
 		this.studentCity = studentCity;
 	}
+	
+	public Student() {
+		
+	}
 
 
 	public int getStudentID() {

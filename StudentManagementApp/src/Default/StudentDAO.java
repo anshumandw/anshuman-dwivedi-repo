@@ -58,7 +58,6 @@ public class StudentDAO {
 
 	public static void showAllStudent() {
 		
-		boolean flag = false;
 		try {
 			Connection con = ConnectionProvider.createConnection();
 			String q = "select * from students";
@@ -93,8 +92,9 @@ public class StudentDAO {
 		boolean flag = false;
 		try {
 			Connection con = ConnectionProvider.createConnection();
-			String q = "update students set sname = ? where sid = ?";
+			String q = "update students set sname = ?, sphone = ?, scity = ? where sid = ?";
 //			, sname = ?, sphone = ?, scity = ?
+			Student student = getStudent(userId);
 			//PreparedStatement
 			PreparedStatement pstmt = con.prepareStatement(q);
 			
@@ -109,6 +109,27 @@ public class StudentDAO {
 		}
 		
 		return flag;
+		
+	}
+	
+	public static Student getStudent(int userID) {
+		Student student = null;
+		try {
+			Connection con = ConnectionProvider.createConnection();
+			String q = "select * from students where sid="+userID;
+			
+			Statement stmt = con.createStatement();
+			
+			ResultSet set = stmt.executeQuery(q);
+			
+			student = new Student(set.getString(2), set.getString(3), set.getString(4));
+			
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return student;
 		
 	}
 }	
