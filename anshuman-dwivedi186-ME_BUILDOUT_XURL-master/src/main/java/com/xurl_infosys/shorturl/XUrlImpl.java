@@ -60,7 +60,7 @@ class XUrlImpl implements XUrl {
         if(hitCount.containsKey(longUrl)) {
             answer = hitCount.get(longUrl);
         }
-        return answer;
+        return answer++;
     }
 
     @Override
